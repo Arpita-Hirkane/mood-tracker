@@ -20,7 +20,8 @@ Frontend: HTML, CSS, JavaScript
 
 Backend (if used): None or Firebase (optional if extended)
 
-
+ ## Live Demo 
+ https://arpita-hirkane.github.io/mood-tracker/
 
 🚀 Future Improvements (Optional Section):
 
