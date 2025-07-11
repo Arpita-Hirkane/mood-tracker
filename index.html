@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>MindEase - Mood Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 How are you feeling today?</h1>
+
+    <div class="mood-buttons">
+      <button onclick="selectMood('Happy')">😊</button>
+      <button onclick="selectMood('Sad')">😢</button>
+      <button onclick="selectMood('Anxious')">😟</button>
+      <button onclick="selectMood('Angry')">😠</button>
+      <button onclick="selectMood('Tired')">😴</button>
+    </div>
+
+    <div id="quote-box" class="hidden">
+      <h2>Your calming quote:</h2>
+      <p id="quote-text"></p>
+    </div>
+
+    <div id="breathe-section" class="hidden">
+      <h3>🧘 Breathe with me</h3>
+      <div id="circle"></div>
+      <p id="breathe-text">Inhale...</p>
+    </div>
+
+    <hr style="margin: 40px 0;" />
+
+    <div id="history-section">
+      <h2>🗓️ Mood History</h2>
+      <ul id="history-list"></ul>
+    </div>
+
+    <div class="nav">
+      <a href="tips.html">🧘 Tips</a>
+      <a href="rewards.html">⭐ Rewards</a>
+      <a href="feedback.html">💬 Feedback</a>
+    </div>
+  </div>
+
+  <!-- Audio for mood sounds -->
+  <audio id="mood-audio" src=""></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
