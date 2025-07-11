@@ -21,6 +21,7 @@ Frontend: HTML, CSS, JavaScript
 Backend (if used): None or Firebase (optional if extended)
 
 
+
 🚀 Future Improvements (Optional Section):
 
 Add localStorage to save mood history.
